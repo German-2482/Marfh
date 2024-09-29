@@ -1,0 +1,101 @@
+body {
+  background-color: #CC9966;
+  
+   
+  background-repeat: no-repeat;
+  
+  background-position: center;
+}
+
+
+h1 { text-align: center; color: white; 
+	 font-family: "doran", serif; }
+
+h2 { text-align: center; color: black; 
+	 font-family: "doran", serif; font-size: 30px; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6d;
+}
+
+
+p.center{
+    text-align: center; color: black; font-size: 35px;
+} 
+
+p.left{
+     float: left;
+} 
+
+input[type=text], select {
+  width: 100%; 
+  padding: 10px 5px;
+  margin: 8px 0;
+  display: inline;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #CC9966;
+  color: white;
+  padding: 10px 5px;
+  margin: 8px 0;
+  display:inline;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #c5baaff7;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  width:50%;
+  height:550px; 
+  border:solid;
+  border-color: black;    
+  padding:20px;
+  margin: 20px 280px ;
+  align-content: center;
+  
+}
+
+p span{
+	float: left;
+	text-align: center;
+	font-size: 25px;
+  padding: 5px;
+  width: 30%;
+}
+
