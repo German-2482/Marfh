@@ -87,7 +87,7 @@ div {
   border-color: black;    
   padding:20px;
   margin: 20px 280px ;
-  align-content: center;
+  align-content: inherit;
   
 }
 
