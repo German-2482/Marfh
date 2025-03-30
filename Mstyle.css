@@ -99,7 +99,7 @@ p span{
   width: 30%;
 }
 
-div {
+div 1 {
 	a:link, a:visited {
   background-color: #f44336;
   color: white;
