@@ -92,18 +92,30 @@ div.form
   
 }
 
+.form {
+	padding: 30px 40px;	
+}
+
 .form-control {
-	margin-bottom: px;
-	padding-bottom: px;
+	margin-bottom: 10px;
+	padding-bottom: 20px;
 	position: relative;
 }
 
 .form-control label {
 	display: inline-block;
-	margin-bottom: px;
+	margin-bottom: 5px;
 }
 
-
+.form-control input {
+	border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-family: inherit;
+	font-size: 14px;
+	padding: 10px;
+	width: 100%;
+}
 
 .form-control input:focus {
 	outline: 0;
@@ -145,6 +157,19 @@ div.form
 
 .form-control.error small {
 	visibility: visible;
+}
+
+.form button {
+	background-color: #8e44ad;
+	border: 2px solid #8e44ad;
+	border-radius: 4px;
+	color: #fff;
+	display: block;
+	font-family: inherit;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 20px;
+	width: 100%;
 }
 
 
