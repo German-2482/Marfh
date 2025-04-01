@@ -91,10 +91,6 @@ div {
   
 }
 
-.form {
-	padding: px px;	
-}
-
 .form-control {
 	margin-bottom: px;
 	padding-bottom: px;
@@ -106,15 +102,7 @@ div {
 	margin-bottom: px;
 }
 
-.form-control input {
-	border: px solid #f0f0f0;
-	border-radius: px;
-	display: block;
-	font-family: inherit;
-	font-size: 14px;
-	padding: 10px;
-	width: 100%;
-}
+
 
 .form-control input:focus {
 	outline: 0;
@@ -158,18 +146,7 @@ div {
 	visibility: visible;
 }
 
-.form button {
-	background-color: #8e44ad;
-	border: 2px solid #8e44ad;
-	border-radius: 4px;
-	color: #fff;
-	display: block;
-	font-family: inherit;
-	font-size: 16px;
-	padding: 10px;
-	margin-top: 20px;
-	width: 100%;
-}
+
 
 p span{
 	float: left;
