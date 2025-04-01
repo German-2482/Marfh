@@ -4,10 +4,10 @@ console.log ('a');
 
 
 const form = document.getElementById('form');
-const username = document.getElementById('fname');
-const email = document.getElementById('lname');
-const password = document.getElementById('mail');
-const password2 = document.getElementById('country');
+const fname = document.getElementById('fname');
+const lname = document.getElementById('lname');
+const mail = document.getElementById('mail');
+const country = document.getElementById('country');
 
 form.addEventListener('submit', e => {
 	e.preventDefault();
@@ -66,15 +66,3 @@ function ismail(mail) {
 }
 
 
-// SOCIAL PANEL JS
-const floating_btn = document.querySelector('.floating-btn');
-const close_btn = document.querySelector('.close-btn');
-const social_panel_container = document.querySelector('.social-panel-container');
-
-floating_btn.addEventListener('click', () => {
-	social_panel_container.classList.toggle('visible')
-});
-
-close_btn.addEventListener('click', () => {
-	social_panel_container.classList.remove('visible')
-});
