@@ -131,6 +131,13 @@ div.form
 	border-color: #e74c3c;
 }
 
+.form-control small {
+	visibility: hidden;
+	color: #e74c3c;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
 .form-control i {
 	visibility: hidden;
 	position: absolute;
@@ -148,12 +155,13 @@ div.form
 	visibility: visible;
 }
 
+
 .form-control small {
+	visibility: hidden;
 	color: #e74c3c;
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	visibility: hidden;
 }
 
 .form-control.error small {
