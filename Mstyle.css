@@ -131,7 +131,8 @@ div.form
 	border-color: #e74c3c;
 }
 
-.form-control i {
+.form-control i 
+{
 	visibility: hidden;
 	position: absolute;
 	top: 40px;
