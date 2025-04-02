@@ -58,11 +58,10 @@ p.left{
 } 
 
 .container {
-	container-position:center;
 	background-color: #fff;
 	border-radius: 5px;
 	border-color:#111;
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	border:5px
 	overflow: hidden;
 	width: 400px;
 	max-width: 100%;
