@@ -4,10 +4,10 @@ console.log ('a');
 
 
 const form = document.getElementById('form');
-const fname = document.getElementById('fname');
-const lname = document.getElementById('lname');
-const mail = document.getElementById('mail');
-const country = document.getElementById('country');
+const username = document.getElementById('username');
+const email = document.getElementById('email');
+const password = document.getElementById('password');
+const password2 = document.getElementById('password2');
 
 form.addEventListener('submit', e => {
 	e.preventDefault();
@@ -17,35 +17,37 @@ form.addEventListener('submit', e => {
 
 function checkInputs() {
 	// trim to remove the whitespaces
-	const fnameValue = fname.value.trim();
-	const lnameValue = lname.value.trim();
-	const mailValue = mail.value.trim();
-	const countryValue = country.value.trim();
+	const usernameValue = username.value.trim();
+	const emailValue = email.value.trim();
+	const passwordValue = password.value.trim();
+	const password2Value = password2.value.trim();
 	
-	if(fnameValue === '') {
-		setErrorFor(fname, 'fname cannot be blank');
+	if(usernameValue === '') {
+		setErrorFor(username, 'Username cannot be blank');
 	} else {
-		setSuccessFor(fname);
+		setSuccessFor(username);
 	}
 	
-	if(lnameValue === '') {
-		setErrorFor(lname, 'lname cannot be blank');
+	if(emailValue === '') {
+		setErrorFor(email, 'Email cannot be blank');
+	} else if (!isEmail(emailValue)) {
+		setErrorFor(email, 'Not a valid email');
 	} else {
-		setSuccessFor(lname);
+		setSuccessFor(email);
 	}
 	
-	if(mailValue === '') {
-		setErrorFor(mail, 'mail cannot be blank');
-	}  else if (!ismail(mailValue)) {
-		setErrorFor(mail, 'Not a valid mail');
+	if(passwordValue === '') {
+		setErrorFor(password, 'Password cannot be blank');
 	} else {
-		setSuccessFor(mail);
+		setSuccessFor(password);
 	}
 	
-	if(countryValue === '') {
-		setErrorFor(country, 'country cannot be blank');
+	if(password2Value === '') {
+		setErrorFor(password2, 'Password2 cannot be blank');
+	} else if(passwordValue !== password2Value) {
+		setErrorFor(password2, 'Passwords does not match');
 	} else{
-		setSuccessFor(country);
+		setSuccessFor(password2);
 	}
 }
 
@@ -61,8 +63,7 @@ function setSuccessFor(input) {
 	formControl.className = 'form-control success';
 }
 	
-function ismail(mail) {
+function isEmail(email) {
 	return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
 }
-
 
