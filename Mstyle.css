@@ -5,9 +5,7 @@ body {
   
   background-position: center;
 
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	
 }
 
 
@@ -56,6 +54,7 @@ p.left{
 } 
 
 .container {
+	container-position:center;
 	background-color: #fff;
 	border-radius: 5px;
 	border-color:#111;
