@@ -158,7 +158,7 @@ div.form
 	visibility: hidden;
 }
 
-.form-control error small {
+.form-control.error small {
 	visibility: visible;
 }
 
