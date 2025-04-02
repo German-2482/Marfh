@@ -59,6 +59,7 @@ p.left{
 	overflow: hidden;
 	width: 400px;
 	max-width: 100%;
+	align-content: center;
 }
 
 .header {
