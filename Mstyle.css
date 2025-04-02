@@ -10,7 +10,6 @@ body {
 .body {
 	max-width:100%;
 	height:auto;
-	align-content:center;
 		display: flex;
 	align-items: center;
 	justify-content: center;
