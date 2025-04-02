@@ -10,6 +10,11 @@ body {
 	justify-content: center;
 }
 
+.body {
+		display: grid;
+	align-items: center;
+	justify-content: center;
+}
 
 h1 { text-align: center; color: white; 
 	 font-family: "doran", serif; }
