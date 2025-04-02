@@ -52,53 +52,31 @@ p.left{
      float: left;
 } 
 
-
-input[type=text], select {
-  width: 100%; 
-  padding: 10px 5px;
-  margin: 8px 0;
-  display: inline;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+.container {
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+	width: 400px;
+	max-width: 100%;
 }
 
-input[type=submit] {
-  width: 100%;
-  background-color: #CC9966;
-  color: white;
-  padding: 10px 5px;
-  margin: 8px 0;
-  display:inline;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+.header {
+	border-bottom: 1px solid #f0f0f0;
+	background-color: #f7f7f7;
+	padding: 20px 40px;
 }
 
-input[type=submit]:hover {
-  background-color: #c5baaff7;
-}
-
-div.form
-{
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  width:50%;
-  height:550px; 
-  border:solid;
-  border-color: black;    
-  padding:20px;
-  margin:auto;
-  align-content: inherit;
-  
+.header h2 {
+	margin: 0;
 }
 
 .form {
-	padding: px px;	
+	padding: 30px 40px;	
 }
 
 .form-control {
-	margin-bottom: px;
+	margin-bottom: 10px;
 	padding-bottom: 20px;
 	position: relative;
 }
@@ -131,8 +109,7 @@ div.form
 	border-color: #e74c3c;
 }
 
-.form-control i 
-{
+.form-control i {
 	visibility: hidden;
 	position: absolute;
 	top: 40px;
@@ -149,8 +126,7 @@ div.form
 	visibility: visible;
 }
 
-
- .form-control small {
+.form-control small {
 	color: #e74c3c;
 	position: absolute;
 	bottom: 0;
@@ -163,8 +139,8 @@ div.form
 }
 
 .form button {
-	background-color: #CC9966;
-	border: 2px solid #CC9966;
+	background-color: #8e44ad;
+	border: 2px solid #8e44ad;
 	border-radius: 4px;
 	color: #fff;
 	display: block;
@@ -174,7 +150,6 @@ div.form
 	margin-top: 20px;
 	width: 100%;
 }
-
 
 
 p span{
