@@ -1,7 +1,7 @@
 body {
   background-color: #CC9966;
-  
-   
+  align-items: center;
+	justify-content: center;
   background-repeat: no-repeat;
   
   background-position: center;
@@ -141,7 +141,7 @@ p.left{
 
 .form button {
 	background-color: #CC9966;
-	border: 2px solid #8e44ad;
+	border: 2px solid #111;
 	border-radius: 4px;
 	color: #fff;
 	display: block;
@@ -150,6 +150,9 @@ p.left{
 	padding: 10px;
 	margin-top: 20px;
 	width: 100%;
+}
+.form button hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 
