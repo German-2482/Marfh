@@ -150,15 +150,15 @@ div.form
 }
 
 
-. small {
-	visibility: hidden;
+.form-control small {
 	color: #e74c3c;
 	position: absolute;
 	bottom: 0;
 	left: 0;
+	visibility: hidden;
 }
 
-.error small {
+.form-control error small {
 	visibility: visible;
 }
 
